@@ -346,10 +346,15 @@ div.footer h6 {
     padding-top: 6rem;
 }
 
-@media (max-width: 500px) {
-
+@media (max-width: 1500px) {
+  p {
+    font-size: 1.25px;
+  }
 }
 
-@media (orientation: portrait) {
-
+@media (min-width: 500px) {
+  p {
+    font-size: 1.5px;
+    line-height: 1.5;
+  }
 }
