@@ -347,14 +347,22 @@ div.footer h6 {
 }
 
 @media (max-width: 1500px) {
-  p {
-    font-size: 1.25px;
+  body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.25px;
   }
 }
 
-@media (min-width: 500px) {
-  p {
+@media only screen and (min-width: 500px) {
+  body {
     font-size: 1.5px;
     line-height: 1.5;
   }
+}
+
+@media only screen and (orientation: portrait) {
+    
 }
