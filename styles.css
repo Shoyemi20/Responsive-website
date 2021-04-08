@@ -359,7 +359,7 @@ div.footer h6 {
 }
 @media (max-width: 800px) {
     div.snapshot-term {
-        display: flex;
+        display: block;
         flex-direction: column;
         flex-wrap: wrap;
       }
