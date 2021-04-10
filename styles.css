@@ -355,11 +355,9 @@ div.footer h6 {
     li:not(last-child) {
         margin: 10px
  }
-
-}
-@media (max-width: 800px) {
-    div.snapshot-term {
-        display: block;
+    .snapshot-box-content {
+        display: flex;
         flex-direction: column;
         flex-wrap: wrap;
       }
+}
